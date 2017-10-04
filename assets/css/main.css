@@ -1,0 +1,229 @@
+body {
+  font-family: 'NotoSans-Regular'; }
+
+h1, h2, h3, p, li {
+  color: #444; }
+
+h1 {
+  margin: 50px 0 30px 0; }
+
+h2 {
+  font-size: 28px; }
+
+h3 {
+  font-size: 16px;
+  font-weight: bold; }
+
+p, li {
+  font-size: 18px; }
+
+a {
+  color: #269fe1; }
+  a:hover, a:active {
+    color: #7bc5e1; }
+
+.emphasis {
+  font-weight: bold;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-size: 1.3em; }
+
+.main-color {
+  color: #269fe1; }
+
+footer {
+  background-color: #269fe1;
+  padding: 10px;
+  margin-top: 10px;
+  color: white; }
+  @media screen and (max-width: 766px) {
+    footer .container {
+      text-align: center; }
+    footer span {
+      text-align: center; } }
+  @media screen and (min-width: 766px) {
+    footer span {
+      margin-left: 10px; }
+    footer .right {
+      float: right; } }
+
+.text-center {
+  text-align: center; }
+
+.navbar {
+  background-color: white; }
+  .navbar .navbar-brand {
+    padding-top: 0;
+    color: black;
+    font-family: "HelveticaNeue-Bold", "Helvetica Neue Bold", "Helvetica Neue"; }
+    .navbar .navbar-brand:hover {
+      color: black; }
+  .navbar .blinkr-icon {
+    float: left;
+    padding-top: 5px; }
+    .navbar .blinkr-icon img {
+      width: 40px;
+      height: 40px; }
+  .navbar .blinkr-title {
+    font-size: 18px;
+    padding-top: 15px;
+    padding-left: 5px;
+    float: left; }
+  .navbar .navbar-position {
+    position: relative;
+    margin: 0 auto; }
+  .navbar .navbar-nav .twitter {
+    color: #00aced !important; }
+  .navbar .navbar-nav a {
+    font-size: 12px;
+    color: #444 !important;
+    padding-left: 5px; }
+    .navbar .navbar-nav a:hover {
+      color: #269fe1 !important; }
+  @media screen and (max-width: 766px) {
+    .navbar .navbar-nav a {
+      margin-left: 10px;
+      font-size: 14px;
+      text-align: center; }
+    .navbar li iframe {
+      display: block;
+      margin: 0 auto; } }
+
+#intro {
+  margin-top: 50px;
+  min-height: 520px;
+  overflow: hidden;
+  background-image: url(../images/header.jpeg);
+  background-size: cover;
+  background-position: top center; }
+  #intro .title {
+    margin-left: 30px;
+    line-height: 65px;
+    font-family: 'Lato';
+    font-size: 55px;
+    font-weight: lighter;
+    color: white;
+    margin-top: 180px; }
+  #intro .apple-banner {
+    margin-left: 30px; }
+  #intro .header-ios {
+    position: relative;
+    overflow: hidden;
+    height: 520px; }
+    #intro .header-ios img {
+      margin-top: 20px;
+      margin-left: 50px;
+      width: 300px; }
+  #intro .demo-video {
+    position: absolute;
+    width: 265px;
+    top: 100px;
+    left: 84px; }
+  @media screen and (max-width: 994px) {
+    #intro .title {
+      margin-top: 150px; } }
+  @media screen and (max-width: 766px) {
+    #intro .title {
+      margin-top: 50px;
+      margin-bottom: 30px;
+      font-size: 40px;
+      line-height: 45px; }
+    #intro .apple-banner {
+      display: none; }
+    #intro .apple {
+      width: 300px;
+      margin: 0 auto; }
+    #intro a:hover {
+      text-decoration: none; }
+    #intro .apple-button {
+      width: 100%;
+      text-align: center;
+      font-size: 18px;
+      text-decoration: none;
+      padding: 8px 0 10px;
+      color: white;
+      border: 1px solid white;
+      background-color: transparent;
+      margin-bottom: 30px; }
+    #intro .header-ios {
+      text-align: center; }
+    #intro .demo-video {
+      margin: auto;
+      top: 112px;
+      left: 3px;
+      right: 0;
+      bottom: 0; }
+    #intro .header-ios img {
+      margin-top: 0;
+      margin-left: 0;
+      text-align: center; } }
+
+#features {
+  padding-bottom: 50px; }
+  #features li, #features p {
+    text-align: center;
+    line-height: 1.7;
+    font-size: 20px; }
+  #features .icon {
+    margin-right: 10px;
+    color: #269fe1; }
+  #features .card-parent {
+    padding: 0; }
+  #features .card {
+    padding: 10px;
+    border-radius: 5px;
+    margin: 0 5px 30px 5px; }
+  #features .tokki {
+    padding-left: 0; }
+  @media screen and (min-width: 995px) {
+    #features .card {
+      height: 250px;
+      padding: 20px; } }
+  @media screen and (max-width: 994px) {
+    #features .card {
+      height: 200px; } }
+  @media screen and (max-width: 766px) {
+    #features .card {
+      margin: 0 20px 30px 20px;
+      height: auto; }
+    #features .tokki {
+      padding-left: 15px; } }
+
+#premium {
+  background-color: #269fe1; }
+  #premium h1 {
+    color: white; }
+  #premium .thumbnail img {
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+    height: 150px; }
+  #premium .thumbnail {
+    background-color: transparent;
+    height: auto;
+    border: none; }
+  @media screen and (max-width: 766px) {
+    #premium .thumbnail img {
+      margin: 0 auto; }
+    #premium .thumbnail {
+      height: auto; } }
+  #premium .winner {
+    font-size: 40px;
+    margin-top: -5px;
+    margin-right: 10px;
+    color: gold; }
+  #premium .desc {
+    font-size: 20px;
+    color: white; }
+
+#support {
+  padding-bottom: 50px; }
+  #support h3 {
+    font-size: 20px; }
+  #support .thumbnail {
+    background-color: transparent;
+    border: none; }
+  #support .question {
+    margin-bottom: 50px; }
+    #support .question .q {
+      color: #269fe1; }
